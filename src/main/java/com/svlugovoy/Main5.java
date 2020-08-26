@@ -9,7 +9,7 @@ public class Main5 {
   public static void main(String[] args) {
 
     Date date = new Date();
-    List<String> phones = new ArrayList<>() {{
+    List<String> phones = new ArrayList<String>() {{
       add("111");
       add("222");
     }};

@@ -66,7 +66,7 @@ public class Main4 {
 
 
   private static List<Person> returnTenPersons() {
-    List<Person> list = new ArrayList<>() {{
+    List<Person> list = new ArrayList<Person>() {{
       add(new Person(1L, "Ivan", "Ivanov", "ivan@gmail.com", 2000, Gender.MALE));
       add(new Person(2L, "Sveta", "Ivanova", "sveta@ukr.net", 3000, Gender.FEMALE));
       add(new Person(3L, "Petr", "Petrov", "petro@gmail.com", 5000, Gender.MALE));
